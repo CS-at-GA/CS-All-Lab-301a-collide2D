@@ -10,7 +10,21 @@ Now, how about `b`? Again, I _could_ start at `a`, but I have already checked to
 
 And so on. 
 
+```
+a check b, c, d, e
+b check c, d, e
+c check d, e
+d check e
+```
+
 Now, let's think about this in terms of arrays: `[a,b,c,d,e]`. I want to start checking at index 0 and then compare to index 1, 2, and so on. Then I want to move on to index 1, and then compare index 2, 3, and so on. 
+
+```
+0 check 1, 2, 3, 4
+1 check 2, 3, 4
+2 check 3, 4
+3 check 4
+````
 
 Now let's think about this in terms of loops: 
 

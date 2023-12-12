@@ -5,7 +5,7 @@ We could bounce the balls, but doing it well [requires a lot of math I don't fee
 When two balls collide, let's mix their colors using [`lerpColor`](https://p5js.org/reference/#/p5/lerpColor). The way the function works is that it takes two colors and a percent distance between them and returns that color. So, in our code example, we'd have this...
 
 ```javascript
-// nested for loops over i and j
+// nested "triangle" for loops over i and j
   if( movers[i].collided( movers[j] ) ) {
     const fromColor = movers[i].c;
     const toColor = movers[j].c

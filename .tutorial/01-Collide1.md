@@ -1,6 +1,6 @@
 # Collide, part 1
 
-Ok, let's get these things colliding with one another. To do this, we need to know how the [`collide2d`](https://github.com/bmoren/p5.collide2D) library works. As you can see, there are a ton of functions in this library, all of the format `collideAB`. These are all circles, so the function we are looking for is [`collideCircleCircle`](https://github.com/bmoren/p5.collide2D#collidecirclecircle). 
+Ok, let's get these things colliding with one another. To do this, we need to know how the [`collide2d`](https://github.com/bmoren/p5.collide2D) library works. As you can see, there are a ton of functions in this library, all of the format `collideAB` where `A` and `B` are different geometric constructions. `Mover`s circles, at least for the time-being, so the function we are looking for is [`collideCircleCircle`](https://github.com/bmoren/p5.collide2D#collidecirclecircle). 
 
 In this documentation, you can see a couple of things. First, we have to pass in the properties of both circles to the function. Second, the function returns a boolean if there is a collision between those two circles. Third, the function assumes `ellipseMode(CENTER)`. 
 

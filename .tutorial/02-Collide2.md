@@ -44,5 +44,6 @@ Easy, we just use our function to pull out the required information for the `col
 
 ## Goals
 
-1. Write a `static` version of the function
-2. **Honors** rewrite the class to have both versions of the function, but only do the _work_ in one of them. 
+1. Write a `static` version of the function.
+2. While we are working here, let's add a static function to make a random `Mover` where we click our mouse.
+3. **Honors** rewrite the class to have both versions of the function, but only do the _work_ in one of them.
